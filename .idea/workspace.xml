@@ -4,7 +4,6 @@
     <list default="true" id="2b5bf374-2b5c-4946-a5a1-fd85adb21336" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson03/act03_01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript_ep01/lesson03/act02_05.html" afterPath="$PROJECT_DIR$/javascript_ep01/lesson03/act02_05.html" />
     </list>
     <ignored path="JavaScript_Study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="act02_05.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="act02_05.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson03/act02_05.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1166">
@@ -87,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="act03_01.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="act03_01.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson03/act03_01.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -306,7 +305,7 @@
       <option name="presentableId" value="Default" />
       <updated>1473426207967</updated>
       <workItem from="1473426209417" duration="2473000" />
-      <workItem from="1473483407415" duration="4610000" />
+      <workItem from="1473483407415" duration="4657000" />
     </task>
     <task id="LOCAL-00001" summary="act02_02">
       <created>1473429015165</created>
@@ -322,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473483902095</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="act02_05">
+      <created>1473488290170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1473488290171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7083000" />
+    <option name="totallyTimeSpent" value="7130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -382,7 +388,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="act02_02" />
     <MESSAGE value="act02_03" />
-    <option name="LAST_COMMIT_MESSAGE" value="act02_03" />
+    <MESSAGE value="act02_05" />
+    <option name="LAST_COMMIT_MESSAGE" value="act02_05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -453,18 +460,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson03/act02_05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson03/act03_01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson03/act02_05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding />
         </state>
       </provider>
