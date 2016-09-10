@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+    //이전(act05_01.html)에서는 literal을 사용하지 않음으로서 css() method를 여러번 사용해야 하는 예제입니다.
+    //이번 예제에서는 object literal을 활용해 여러개의ㅣ 데이터를 한 번에 설정합니다.(이는 jQuery의 기능입니다.)
+    $(document).ready(function(){
+        var $ch=$("#ch1");
+        $ch.css({
+            "position":"absolute",
+            "left":100,
+            "top":100
+        });
+    })
+</script>
+<body>
+   <img src="ch2.png" id="ch1"/>
+</body>
+</html>
