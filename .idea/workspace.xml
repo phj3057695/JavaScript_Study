@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5bf374-2b5c-4946-a5a1-fd85adb21336" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson03/act02_04.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaScript_Study.iws" />
@@ -69,8 +68,8 @@
       <file leaf-file-name="act02_04.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson03/act02_04.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+            <state relative-caret-position="200">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -283,7 +282,7 @@
       <option name="presentableId" value="Default" />
       <updated>1473426207967</updated>
       <workItem from="1473426209417" duration="2473000" />
-      <workItem from="1473483407415" duration="1811000" />
+      <workItem from="1473483407415" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="act02_02">
       <created>1473429015165</created>
@@ -303,7 +302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4284000" />
+    <option name="totallyTimeSpent" value="4380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -406,8 +405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson03/act02_04.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        <state relative-caret-position="200">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding />
         </state>
       </provider>
