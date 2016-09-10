@@ -47,34 +47,34 @@
 </style>
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 <script>
-    //tabMenu1 클래스에 3개의 변수들(tabMenu, menuItems, selectMenuItem)을 포장합니다.
+    //tabMenu1 클래스에 3개의 변수들(tabMenu, menuItems, selectMenuItem), 그리고 3개의 메소드(init,initEvent,setSelectItem)을 포장합니다.
     var tabMenu1 = {
         $tabMenu:null,
         $menuItems:null,
         $selectMenuItem:null,
+
+        init:function(){
+            this.$tabMenu=$("#tabMenu1");
+            $menuItems = $tabMenu.find("li");
+        },
+        initEvent:function() {
+            $menuItems.on("click", function () {
+                setSelectItem($(this));
+            });
+        },
+        setSelectItem:function($menuItem){
+            if(this.$selectMenuItem){
+                this.$selectMenuItem.removeClass("select");
+            }
+            this.$selectMenuItem=$menuItem;
+            this.$selectMenuItem.addClass("select");
+        }
     }
     $(document).ready(function(){
         //tab메뉴 요소 초기화
 
     });
 
-    //tabMenu1에 아래 method들은 다음 파트에서 넣겠습니다.
-    function init(){
-        $tabMenu = $("#tabMenu1");
-        $menuItems = $tabMenu.find("li");
-    }
-    function initEvent(){
-        $menuItems.on("click",function(){
-            setSelectItem($(this));
-        });
-    }
-    function setSelectItem($menuItem){
-        if($selectMenuItem){
-            $selectMenuItem.removeClass("select");
-        }
-        $selectMenuItem = $menuItem;
-        $selectMenuItem.addClass("select");
-    }
 </script>
 <body>
 <body>
