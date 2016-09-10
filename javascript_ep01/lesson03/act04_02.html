@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+    //object literal 방식으로 데이터 생성
+    var userInfo={
+        userName: "김나영",
+        id:"dreamgirls",
+        age:21,
+        address:"서울시 영등포구",
+        nickName:"젤피동네"
+    }
+    function showInfo(userInfo){
+        document.write("name = "+userInfo.userName, ", id = "+userInfo.id,", nickName = "+userInfo.nickName, ", age = "+userInfo.age, ", address = "+userInfo.address);
+    }
+    showInfo(userInfo);
+</script>
+<body>
+
+</body>
+</html>
