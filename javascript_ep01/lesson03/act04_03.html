@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+    //object literal 방식으로 데이터 생성
+    var userInfo={
+        userName: "김나영",
+        id:"dreamgirls"
+    }
+    var defaults={
+            age:20,
+            address:"서울시 영등포구",
+            nickName:"나영여신"
+    }
+    function showInfo(userInfo){
+        userInfo=$.extend({},defaults,userInfo); //extend()는 jQuery의 기능이다. ep05에서 다시 볼 수 있습니다.
+        document.write("name = "+userInfo.userName, ", id = "+userInfo.id,", nickName = "+userInfo.nickName, ", age = "+userInfo.age, ", address = "+userInfo.address);
+    }
+    showInfo(userInfo);
+</script>
+<body>
+
+</body>
+</html>
