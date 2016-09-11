@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>구구단 출력</title>
+</head>
+<style>
+    #output{
+        border:1px solid red;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+    function gugu(){
+        var res = "";
+        this.$output = $("#output");
+        gugu.prototype.danoutput = function(dan){
+            this.$output.html("");
+            this.clear();
+            for(var i=1;i<=9;i++){
+                res += dan + " * "+i + " = "+ dan*i+"<br>";
+            }
+            this.$output.html(res);
+        }
+        gugu.prototype.clear = function(){
+            this.$output.html("");
+        }
+    }
+    $(document).ready(function(){
+        var gugudan = new gugu();
+       $("#3").click(function(){
+            gugudan.danoutput($(this).attr('id'));
+       })
+       $("#6").click(function(){
+            gugudan.danoutput($(this).attr('id'));
+       })
+       $("#9").click(function(){
+            gugudan.danoutput($(this).attr('id'));
+       })
+       $("#clear").click(function(){
+            gugudan.clear();
+       })
+
+    });
+</script>
+<body>
+    <div>
+        <button id="3">
+            3단출력
+        </button>
+        <button id="6">
+            6단출력
+        </button>
+        <button id="9">
+            9단출력
+        </button>
+        <button id="clear">
+            모두 지우기
+        </button>
+    </div>
+<div id="output">
+    구구단이 출력되는 곳입니다.
+</div>
+</body>
+</html>
