@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5bf374-2b5c-4946-a5a1-fd85adb21336" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript_ep01/lesson04/act03_02.html" afterPath="$PROJECT_DIR$/javascript_ep01/lesson04/act03_02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson05/images/newbtn.bar.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson05/images/newbtn.bar.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson05/images/newbtn.bar.3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson05/images/newbtn.bar.4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson05/images/newbtn.bar.5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson05/images/newbtn.bar.6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson05/act01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaScript_Study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="act03_02.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="act03_02.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson04/act03_02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+            <state relative-caret-position="430">
+              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="act01.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -58,8 +75,8 @@
       <file leaf-file-name="act02_04.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson04/act02_04.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="430">
+              <caret line="47" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -100,6 +117,7 @@
         <option value="$PROJECT_DIR$/javascript_ep01/lesson04/act04_02.html" />
         <option value="$PROJECT_DIR$/javascript_ep01/lesson04/act03_01.html" />
         <option value="$PROJECT_DIR$/javascript_ep01/lesson04/act03_02.html" />
+        <option value="$PROJECT_DIR$/javascript_ep01/lesson05/act01.html" />
       </list>
     </option>
   </component>
@@ -173,7 +191,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson04" />
+              <option name="myItemId" value="lesson05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript_Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript_Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript_ep01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,10 +232,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lesson04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,6 +281,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\UNion-Minerva\Documents\GitHub\javascript_study\JavaScript_Study\javascript_ep01\lesson05" />
       <recent name="C:\Users\UNion-Minerva\Documents\GitHub\javascript_study\JavaScript_Study\javascript_ep01\lesson04" />
       <recent name="C:\Users\UNion-Minerva\Documents\GitHub\javascript_study\JavaScript_Study\javascript_ep01\lesson03" />
     </key>
@@ -330,7 +367,7 @@
       <updated>1473426207967</updated>
       <workItem from="1473426209417" duration="2473000" />
       <workItem from="1473483407415" duration="12032000" />
-      <workItem from="1473572156782" duration="3330000" />
+      <workItem from="1473572156782" duration="3694000" />
     </task>
     <task id="LOCAL-00001" summary="act02_02">
       <created>1473429015165</created>
@@ -357,13 +394,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17835000" />
+    <option name="totallyTimeSpent" value="18199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123222746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123222746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -649,14 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson04/act02_04.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson04/act04_02.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -683,8 +712,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson04/act03_02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+        <state relative-caret-position="430">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson04/act02_04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="47" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
