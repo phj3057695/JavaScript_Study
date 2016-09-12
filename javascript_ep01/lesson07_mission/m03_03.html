@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+    $(document).ready(function(){
+        //오브젝트 리터럴로 변경
+        var gallery1 = new SimpleGallery({
+            selector:"#container1 img",
+            count:6
+        });
+        var gallery2 = new SimpleGallery({
+            selector:"#container2 img"
+        });
+        gallery1.showGallery();
+        gallery2.showGallery();
+    })
+    function showGallery($images, count, width, height){
+
+    }
+    //오브젝트 리터럴로 변경합니다. (selector, count, width, height) -> info
+    function SimpleGallery(info){
+        this.$images = null;
+        this.count = info.count;
+        this.imageWidth = info.width;
+        this.imageHeight = info.height;
+
+        this.setDefaultValue();
+        this.init(info.selector);
+    }
+
+    //기본값을 설정하는 메서드로, 만약에 값을 지정하지 않았으면 기본으로 count=5, imageWidth = 150, imageHeight = 150으로 지정합니다.
+    SimpleGallery.prototype.setDefaultValue=function(){
+        if(this.count==null)
+            this.count=5;
+        if(this.imageWidth==null)
+            this.imageWidth=150;
+        if(this.imageHeight==null)
+            this.imageHeight=150;
+    }
+    SimpleGallery.prototype.init=function(selector){
+        this.$images=$(selector);
+    }
+    SimpleGallery.prototype.showGallery=function(){
+        var length = this.$images.length;
+        for(var i=0;i<length;i++){
+            var $img = this.$images.eq(i);
+            var x = 100+((i%this.count)*this.imageWidth);
+            var y = 100+(parseInt(i/this.count)*this.imageHeight);
+            $img.css({
+                left:x,
+                top:y
+            });
+        }
+    }
+</script>
+<body>
+<p>container1</p>
+<div class="image-container" id="container1">
+    <img src="banners/1.png">
+    <img src="banners/2.png">
+    <img src="banners/3.png">
+    <img src="banners/4.png">
+    <img src="banners/5.png">
+    <img src="banners/6.png">
+    <img src="banners/7.png">
+    <img src="banners/8.png">
+</div>
+<p>container2</p>
+<div class="image-container" id="container2">
+    <img src="banners/1.png">
+    <img src="banners/2.png">
+    <img src="banners/3.png">
+    <img src="banners/4.png">
+    <img src="banners/5.png">
+    <img src="banners/6.png">
+    <img src="banners/7.png">
+    <img src="banners/8.png">
+</div>
+</body>
+</html>
