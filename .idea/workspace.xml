@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5bf374-2b5c-4946-a5a1-fd85adb21336" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html" />
     </list>
     <ignored path="JavaScript_Study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +39,8 @@
       <file leaf-file-name="m04_01.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+            <state relative-caret-position="774">
+              <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -399,7 +393,7 @@
       <workItem from="1473426209417" duration="2473000" />
       <workItem from="1473483407415" duration="12032000" />
       <workItem from="1473572156782" duration="8126000" />
-      <workItem from="1473651792516" duration="8689000" />
+      <workItem from="1473651792516" duration="8800000" />
     </task>
     <task id="LOCAL-00001" summary="act02_02">
       <created>1473429015165</created>
@@ -426,7 +420,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31320000" />
+    <option name="totallyTimeSpent" value="31431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
@@ -828,10 +822,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+        <state relative-caret-position="774">
+          <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
           <folding />
         </state>
       </provider>
