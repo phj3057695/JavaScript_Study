@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5bf374-2b5c-4946-a5a1-fd85adb21336" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m03_03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/images/newbtn.bar.6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaScript_Study.iws" />
@@ -29,8 +35,38 @@
       <file leaf-file-name="act03_01.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act03_01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="48" column="8" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="8" />
+            <state relative-caret-position="782">
+              <caret line="103" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m04_01.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="act02_01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act02_01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="866">
+              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="act02_02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act02_02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1226">
+              <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -76,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m03_03.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m03_03.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson07_mission/m03_03.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="144">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -130,6 +166,7 @@
         <option value="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m03_01.html" />
         <option value="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m03_02.html" />
         <option value="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m03_03.html" />
+        <option value="$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html" />
       </list>
     </option>
   </component>
@@ -217,6 +254,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lesson07_mission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript_Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript_Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript_ep01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson07_mission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript_Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript_Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript_ep01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson05" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,7 +399,7 @@
       <workItem from="1473426209417" duration="2473000" />
       <workItem from="1473483407415" duration="12032000" />
       <workItem from="1473572156782" duration="8126000" />
-      <workItem from="1473651792516" duration="7500000" />
+      <workItem from="1473651792516" duration="8689000" />
     </task>
     <task id="LOCAL-00001" summary="act02_02">
       <created>1473429015165</created>
@@ -349,7 +426,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30131000" />
+    <option name="totallyTimeSpent" value="31320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
@@ -664,32 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act02_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson04/act03_02.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="100" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act02_02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act03_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="8" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,8 +798,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson07_mission/m03_03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="144">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act02_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act02_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1226">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson05/act03_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="103" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_ep01/lesson07_mission/m04_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
           <folding />
         </state>
       </provider>
