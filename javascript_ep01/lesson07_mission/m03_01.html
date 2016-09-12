@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+    $(document).ready(function(){
+        var $images1 = $("#container1 img");
+        var $images2 = $("#container2 img");
+        showGallery($images1, 6,150,150);
+        showGallery($images2, 4,200,200);
+    })
+    function showGallery($images, count, width, height){
+        var length = $images.length;
+        for(var i=0;i<length;i++){
+            var $img = $images.eq(i);
+            var x = 100+((i%count)*width);
+            var y = 100+(parseInt(i/count)*width);
+            $img.css({
+                left:x,
+                top:y
+            });
+        }
+    }
+</script>
+<body>
+<p>container1</p>
+<div class="image-container" id="container1">
+    <img src="banners/1.png">
+    <img src="banners/2.png">
+    <img src="banners/3.png">
+    <img src="banners/4.png">
+    <img src="banners/5.png">
+    <img src="banners/6.png">
+    <img src="banners/7.png">
+    <img src="banners/8.png">
+</div>
+<p>container2</p>
+<div class="image-container" id="container2">
+    <img src="banners/1.png">
+    <img src="banners/2.png">
+    <img src="banners/3.png">
+    <img src="banners/4.png">
+    <img src="banners/5.png">
+    <img src="banners/6.png">
+    <img src="banners/7.png">
+    <img src="banners/8.png">
+</div>
+</body>
+</html>
