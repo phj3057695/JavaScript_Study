@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #output{
+        border:1px solid coral;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script>
+    function calculator(){
+        this.$value1 = null;
+        this.op_code = null;
+        this.$value2 = null;
+        this.$output = null;
+
+    }
+    calculator.prototype.init = function(){
+        this.$value1=$("#val1");
+        this.op_code=$("#op");
+        this.$value2=$("#val2");
+        this.$output=$("#output");
+    }
+    calculator.prototype.exeCalc = function(){
+        var val1 = parseInt(this.$value1.val());
+        var op_code = this.op_code.val();
+        var val2 = parseInt(this.$value2.val());
+        this.printCalc(val1,op_code,val2);
+    }
+    calculator.prototype.initEvent=function(){
+        var objThis =this;
+        $("#cal").click(function(){
+            objThis.exeCalc();
+        })
+    }
+    calculator.prototype.printCalc = function(val1,op,val2){
+        var res = "";
+        switch(op){
+            case "+":
+                res = val1+val2;
+                break;
+            case "-":
+                res = val1-val2;
+                break;
+            case "*":
+                res = val1*val2;
+                break;
+            case "/":
+                if(val2==0){
+                    res="div/0 error!";
+                }else{
+                    res=val1/val2;
+                }
+                break;
+        }
+        this.$output.html(res);
+    }
+    $(document).ready(function(){
+        var calc = new calculator();
+        calc.init();
+        calc.initEvent();
+    })
+</script>
+<body>
+<div>
+    숫자1:<input id="val1">,
+    연산자:<input id="op">,
+    숫자2:<input id="val2">
+    <button id="cal">확인</button>
+</div>
+<div id="output">
+    여기에 결과를 출력합니다.
+</div>
+</body>
+</html>
